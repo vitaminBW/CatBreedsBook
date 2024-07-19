@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23G5075b" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MOBreed" representedClassName="MOBreed" syncable="YES">
+        <attribute name="breedDescription" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="photos" toMany="YES" deletionRule="Nullify" destinationEntity="MOPhoto" inverseName="breed" inverseEntity="MOPhoto"/>
+    </entity>
+    <entity name="MOPhoto" representedClassName="MOPhoto" syncable="YES">
+        <attribute name="url" attributeType="String"/>
+        <relationship name="breed" maxCount="1" deletionRule="Nullify" destinationEntity="MOBreed" inverseName="photos" inverseEntity="MOBreed"/>
+    </entity>
+</model>

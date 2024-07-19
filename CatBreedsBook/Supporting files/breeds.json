@@ -1,0 +1,67 @@
+{
+    "breeds": [
+        {
+            "id": "abys",
+            "name": "Abyssinian",
+            "description": "The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.",
+            "image_url": [
+                "https://cdn2.thecatapi.com/images/xnzzM6MBI.jpg",
+                "https://cdn2.thecatapi.com/images/unPP08xOZ.jpg",
+                "https://cdn2.thecatapi.com/images/KWdLHmOqc.jpg",
+                "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+                "https://cdn2.thecatapi.com/images/9x1zk_Qdr.jpg",
+                "https://cdn2.thecatapi.com/images/gCEFbK7in.jpg",
+                "https://cdn2.thecatapi.com/images/p6x60nX6U.jpg",
+                "https://cdn2.thecatapi.com/images/tv8tNeYaU.jpg",
+                "https://cdn2.thecatapi.com/images/MJWtDz75E.jpg",
+                "https://cdn2.thecatapi.com/images/g1j3wRjgx.jpg"
+            ]
+        },
+        {
+            "id": "bamb",
+            "name": "Bambino",
+            "description": "The Bambino is a breed of cat that was created as a cross between the Sphynx and the Munchkin breeds. The Bambino cat has short legs, large upright ears, and is usually hairless. They love to be handled and cuddled up on the laps of their family members.",
+            "image_url": [
+                "https://cdn2.thecatapi.com/images/s42I_BL-a.jpg",
+                "https://cdn2.thecatapi.com/images/Oaoo1ky3A.jpg",
+                "https://cdn2.thecatapi.com/images/MizM7dBMU.jpg",
+                "https://cdn2.thecatapi.com/images/p46ys1bGF.jpg",
+                "https://cdn2.thecatapi.com/images/jUY0Dt5iB.jpg",
+                "https://cdn2.thecatapi.com/images/wiHVRle1m.jpg",
+                "https://cdn2.thecatapi.com/images/lClcFEjwx.jpg",
+                "https://cdn2.thecatapi.com/images/wFQIf01uy.jpg",
+                "https://cdn2.thecatapi.com/images/5AdhMjeEu.jpg"
+            ]            
+        },
+        {
+            "id": "amau",
+            "name": "Arabian Mau",
+            "description": "Arabian Mau cats are social and energetic. Due to their energy levels, these cats do best in homes where their owners will be able to provide them with plenty of playtime, attention and interaction from their owners. These kitties are friendly, intelligent, and adaptable, and will even get along well with other pets and children.",
+            "image_url": [
+                "https://cdn2.thecatapi.com/images/z_k-oJ8xG.jpg",
+                "https://cdn2.thecatapi.com/images/m1TeHn2dH.jpg",
+                "https://cdn2.thecatapi.com/images/cZHbIzC_l.jpg",
+                "https://cdn2.thecatapi.com/images/zlpgGWqN7.jpg",
+                "https://cdn2.thecatapi.com/images/k71ULYfRr.jpg",
+                "https://cdn2.thecatapi.com/images/mnD88Lsjd.jpg"
+            ]                     
+        },
+        {
+            "id": "char",
+            "name": "Chartreux",
+            "description": "The Chartreux is generally silent but communicative. Short play sessions, mixed with naps and meals are their perfect day. Whilst appreciating any attention you give them, they are not demanding, content instead to follow you around devotedly, sleep on your bed and snuggle with you if you’re not feeling well.",
+            "image_url": [
+                "https://cdn2.thecatapi.com/images/j6oFGLpRG.jpg",
+                "https://cdn2.thecatapi.com/images/rw09G0crt.jpg",
+                "https://cdn2.thecatapi.com/images/Y4YIOqGKb.jpg",
+                "https://cdn2.thecatapi.com/images/SpioNJPsd.jpg",
+                "https://cdn2.thecatapi.com/images/qinVu0VLV.jpg",
+                "https://cdn2.thecatapi.com/images/iY76694gN.jpg",
+                "https://cdn2.thecatapi.com/images/ZSV_8HqoS.jpg",
+                "https://cdn2.thecatapi.com/images/OUZlUVIco.jpg",
+                "https://cdn2.thecatapi.com/images/EYtB_5RrB.jpg",
+                "https://cdn2.thecatapi.com/images/K3eHRIQXM.jpg"
+            ]                              
+        }
+    ]
+}

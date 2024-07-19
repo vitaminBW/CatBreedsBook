@@ -8,26 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		D5B335AA2C486BD700D3B49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335A92C486BD700D3B49B /* AppDelegate.swift */; };
-		D5B335AC2C486BD700D3B49B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335AB2C486BD700D3B49B /* SceneDelegate.swift */; };
-		D5B335AE2C486BD700D3B49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335AD2C486BD700D3B49B /* ViewController.swift */; };
-		D5B335B12C486BD700D3B49B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D5B335B02C486BD700D3B49B /* Base */; };
 		D5B335B42C486BD700D3B49B /* CatBreedsBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5B335B22C486BD700D3B49B /* CatBreedsBook.xcdatamodeld */; };
 		D5B335B62C486BD900D3B49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B335B52C486BD900D3B49B /* Assets.xcassets */; };
 		D5B335B92C486BD900D3B49B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D5B335B82C486BD900D3B49B /* Base */; };
-		D5B335C42C486BD900D3B49B /* CatBreedsBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335C32C486BD900D3B49B /* CatBreedsBookTests.swift */; };
-		D5B335CE2C486BD900D3B49B /* CatBreedsBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335CD2C486BD900D3B49B /* CatBreedsBookUITests.swift */; };
-		D5B335D02C486BD900D3B49B /* CatBreedsBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335CF2C486BD900D3B49B /* CatBreedsBookUITestsLaunchTests.swift */; };
+		D5B335DE2C49079100D3B49B /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335DD2C49079100D3B49B /* CoreDataHelper.swift */; };
+		D5B335ED2C490C5D00D3B49B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335EC2C490C5D00D3B49B /* NetworkService.swift */; };
+		D5B335F02C490FFA00D3B49B /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335EF2C490FFA00D3B49B /* DependencyContainer.swift */; };
+		D5B335F62C49111000D3B49B /* BreedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335F52C49111000D3B49B /* BreedListViewController.swift */; };
+		D5B335F92C4911C600D3B49B /* BreedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335F82C4911C600D3B49B /* BreedListViewModel.swift */; };
+		D5B335FE2C49123200D3B49B /* BreedDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335FD2C49123200D3B49B /* BreedDetailViewModel.swift */; };
+		D5B336002C49126E00D3B49B /* BreedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335FF2C49126E00D3B49B /* BreedDetailViewController.swift */; };
+		D5B336022C49140F00D3B49B /* BreedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336012C49140F00D3B49B /* BreedRepository.swift */; };
+		D5B336052C492FC100D3B49B /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336042C492FC100D3B49B /* Breed.swift */; };
+		D5B336082C492FF000D3B49B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336072C492FF000D3B49B /* Photo.swift */; };
+		D5B3360D2C4939C100D3B49B /* MOPhoto+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336092C4939C100D3B49B /* MOPhoto+CoreDataClass.swift */; };
+		D5B3360E2C4939C100D3B49B /* MOPhoto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3360A2C4939C100D3B49B /* MOPhoto+CoreDataProperties.swift */; };
+		D5B3360F2C4939C100D3B49B /* MOBreed+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3360B2C4939C100D3B49B /* MOBreed+CoreDataClass.swift */; };
+		D5B336102C4939C100D3B49B /* MOBreed+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3360C2C4939C100D3B49B /* MOBreed+CoreDataProperties.swift */; };
+		D5B336122C493EBF00D3B49B /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336112C493EBF00D3B49B /* ImageRepository.swift */; };
+		D5B336142C494D2400D3B49B /* BreedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B336132C494D2400D3B49B /* BreedListViewController.xib */; };
+		D5B336172C495BB200D3B49B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D5B336162C495BB200D3B49B /* Localizable.xcstrings */; };
+		D5B336192C495C7400D3B49B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336182C495C7400D3B49B /* String+Extension.swift */; };
+		D5B3361C2C495D8900D3B49B /* BreedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3361B2C495D8900D3B49B /* BreedTableViewCell.swift */; };
+		D5B3361F2C495E7700D3B49B /* breeds.json in Resources */ = {isa = PBXBuildFile; fileRef = D5B3361E2C495E7700D3B49B /* breeds.json */; };
+		D5B336212C49AC4900D3B49B /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336202C49AC4900D3B49B /* DescriptionCell.swift */; };
+		D5B336232C49AC6500D3B49B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336222C49AC6500D3B49B /* PhotoCell.swift */; };
+		D5B336252C49C0B600D3B49B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B335F12C49107500D3B49B /* Router.swift */; };
+		D5B336272C49CAEA00D3B49B /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336262C49CAEA00D3B49B /* LoadingImageView.swift */; };
+		D5B3362C2C4A646700D3B49B /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3362B2C4A646700D3B49B /* ImageStorage.swift */; };
+		D5B3362F2C4A64E900D3B49B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3362E2C4A64E900D3B49B /* ImageLoader.swift */; };
+		D5B336322C4A671D00D3B49B /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D5B336312C4A671D00D3B49B /* Swinject */; };
+		D5B336372C4A6F3F00D3B49B /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D5B336362C4A6F3F00D3B49B /* Swinject */; };
+		D5B3363B2C4A711000D3B49B /* BreedListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3363A2C4A711000D3B49B /* BreedListViewModelTests.swift */; };
+		D5B3363D2C4A716800D3B49B /* MockImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3363C2C4A716800D3B49B /* MockImageLoader.swift */; };
+		D5B336402C4A719700D3B49B /* MockBreedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3363F2C4A719700D3B49B /* MockBreedRepository.swift */; };
+		D5B336422C4A72C200D3B49B /* BreedDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B336412C4A72C200D3B49B /* BreedDetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D5B335C02C486BD900D3B49B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5B3359E2C486BD700D3B49B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5B335A52C486BD700D3B49B;
-			remoteInfo = CatBreedsBook;
-		};
-		D5B335CA2C486BD900D3B49B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5B3359E2C486BD700D3B49B /* Project object */;
 			proxyType = 1;
@@ -39,18 +58,42 @@
 /* Begin PBXFileReference section */
 		D5B335A62C486BD700D3B49B /* CatBreedsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBreedsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B335A92C486BD700D3B49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5B335AB2C486BD700D3B49B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5B335AD2C486BD700D3B49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5B335B02C486BD700D3B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5B335B32C486BD700D3B49B /* CatBreedsBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatBreedsBook.xcdatamodel; sourceTree = "<group>"; };
 		D5B335B52C486BD900D3B49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B335B82C486BD900D3B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5B335BA2C486BD900D3B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B335BF2C486BD900D3B49B /* CatBreedsBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBreedsBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B335C32C486BD900D3B49B /* CatBreedsBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsBookTests.swift; sourceTree = "<group>"; };
-		D5B335C92C486BD900D3B49B /* CatBreedsBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatBreedsBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B335CD2C486BD900D3B49B /* CatBreedsBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsBookUITests.swift; sourceTree = "<group>"; };
-		D5B335CF2C486BD900D3B49B /* CatBreedsBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5B335DD2C49079100D3B49B /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		D5B335EC2C490C5D00D3B49B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D5B335EF2C490FFA00D3B49B /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		D5B335F12C49107500D3B49B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D5B335F52C49111000D3B49B /* BreedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewController.swift; sourceTree = "<group>"; };
+		D5B335F82C4911C600D3B49B /* BreedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewModel.swift; sourceTree = "<group>"; };
+		D5B335FD2C49123200D3B49B /* BreedDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewModel.swift; sourceTree = "<group>"; };
+		D5B335FF2C49126E00D3B49B /* BreedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewController.swift; sourceTree = "<group>"; };
+		D5B336012C49140F00D3B49B /* BreedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRepository.swift; sourceTree = "<group>"; };
+		D5B336042C492FC100D3B49B /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		D5B336072C492FF000D3B49B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D5B336092C4939C100D3B49B /* MOPhoto+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MOPhoto+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D5B3360A2C4939C100D3B49B /* MOPhoto+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MOPhoto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5B3360B2C4939C100D3B49B /* MOBreed+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MOBreed+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D5B3360C2C4939C100D3B49B /* MOBreed+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MOBreed+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5B336112C493EBF00D3B49B /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		D5B336132C494D2400D3B49B /* BreedListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreedListViewController.xib; sourceTree = "<group>"; };
+		D5B336162C495BB200D3B49B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D5B336182C495C7400D3B49B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D5B3361B2C495D8900D3B49B /* BreedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewCell.swift; sourceTree = "<group>"; };
+		D5B3361E2C495E7700D3B49B /* breeds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breeds.json; sourceTree = "<group>"; };
+		D5B336202C49AC4900D3B49B /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		D5B336222C49AC6500D3B49B /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D5B336262C49CAEA00D3B49B /* LoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
+		D5B3362B2C4A646700D3B49B /* ImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
+		D5B3362E2C4A64E900D3B49B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D5B336352C4A6E6E00D3B49B /* CatBreedsBook.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CatBreedsBook.xctestplan; sourceTree = "<group>"; };
+		D5B3363A2C4A711000D3B49B /* BreedListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewModelTests.swift; sourceTree = "<group>"; };
+		D5B3363C2C4A716800D3B49B /* MockImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageLoader.swift; sourceTree = "<group>"; };
+		D5B3363F2C4A719700D3B49B /* MockBreedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBreedRepository.swift; sourceTree = "<group>"; };
+		D5B336412C4A72C200D3B49B /* BreedDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B336322C4A671D00D3B49B /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,13 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B335C62C486BD900D3B49B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D5B336372C4A6F3F00D3B49B /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +119,9 @@
 		D5B3359D2C486BD700D3B49B = {
 			isa = PBXGroup;
 			children = (
+				D5B336352C4A6E6E00D3B49B /* CatBreedsBook.xctestplan */,
 				D5B335A82C486BD700D3B49B /* CatBreedsBook */,
 				D5B335C22C486BD900D3B49B /* CatBreedsBookTests */,
-				D5B335CC2C486BD900D3B49B /* CatBreedsBookUITests */,
 				D5B335A72C486BD700D3B49B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +131,6 @@
 			children = (
 				D5B335A62C486BD700D3B49B /* CatBreedsBook.app */,
 				D5B335BF2C486BD900D3B49B /* CatBreedsBookTests.xctest */,
-				D5B335C92C486BD900D3B49B /* CatBreedsBookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +138,16 @@
 		D5B335A82C486BD700D3B49B /* CatBreedsBook */ = {
 			isa = PBXGroup;
 			children = (
-				D5B335A92C486BD700D3B49B /* AppDelegate.swift */,
-				D5B335AB2C486BD700D3B49B /* SceneDelegate.swift */,
-				D5B335AD2C486BD700D3B49B /* ViewController.swift */,
-				D5B335AF2C486BD700D3B49B /* Main.storyboard */,
-				D5B335B52C486BD900D3B49B /* Assets.xcassets */,
-				D5B335B72C486BD900D3B49B /* LaunchScreen.storyboard */,
-				D5B335BA2C486BD900D3B49B /* Info.plist */,
-				D5B335B22C486BD700D3B49B /* CatBreedsBook.xcdatamodeld */,
+				D5B336292C49CFBB00D3B49B /* App */,
+				D5B336032C49283200D3B49B /* Dependency */,
+				D5B335DF2C4908EB00D3B49B /* DataModel */,
+				D5B335F42C4910EE00D3B49B /* Media */,
+				D5B335EE2C490C6200D3B49B /* Network */,
+				D5B335DC2C4906D300D3B49B /* Repositories */,
+				D5B336432C4A79B300D3B49B /* Router */,
+				D5B335F32C4910D300D3B49B /* UI */,
+				D5B3361A2C495C7800D3B49B /* Extension */,
+				D5B336152C494E8C00D3B49B /* Supporting files */,
 			);
 			path = CatBreedsBook;
 			sourceTree = "<group>";
@@ -116,18 +155,201 @@
 		D5B335C22C486BD900D3B49B /* CatBreedsBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				D5B335C32C486BD900D3B49B /* CatBreedsBookTests.swift */,
+				D5B3363A2C4A711000D3B49B /* BreedListViewModelTests.swift */,
+				D5B336412C4A72C200D3B49B /* BreedDetailViewModelTests.swift */,
+				D5B3363E2C4A716C00D3B49B /* Mock */,
 			);
 			path = CatBreedsBookTests;
 			sourceTree = "<group>";
 		};
-		D5B335CC2C486BD900D3B49B /* CatBreedsBookUITests */ = {
+		D5B335DC2C4906D300D3B49B /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				D5B335CD2C486BD900D3B49B /* CatBreedsBookUITests.swift */,
-				D5B335CF2C486BD900D3B49B /* CatBreedsBookUITestsLaunchTests.swift */,
+				D5B336012C49140F00D3B49B /* BreedRepository.swift */,
+				D5B336112C493EBF00D3B49B /* ImageRepository.swift */,
+				D5B3362D2C4A649300D3B49B /* Storage */,
 			);
-			path = CatBreedsBookUITests;
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D5B335DF2C4908EB00D3B49B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335B22C486BD700D3B49B /* CatBreedsBook.xcdatamodeld */,
+				D5B335DD2C49079100D3B49B /* CoreDataHelper.swift */,
+				D5B335EA2C490BCA00D3B49B /* Breed */,
+				D5B335EB2C490BDB00D3B49B /* Photo */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D5B335EA2C490BCA00D3B49B /* Breed */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3360B2C4939C100D3B49B /* MOBreed+CoreDataClass.swift */,
+				D5B3360C2C4939C100D3B49B /* MOBreed+CoreDataProperties.swift */,
+			);
+			path = Breed;
+			sourceTree = "<group>";
+		};
+		D5B335EB2C490BDB00D3B49B /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				D5B336092C4939C100D3B49B /* MOPhoto+CoreDataClass.swift */,
+				D5B3360A2C4939C100D3B49B /* MOPhoto+CoreDataProperties.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		D5B335EE2C490C6200D3B49B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335EC2C490C5D00D3B49B /* NetworkService.swift */,
+				D5B336062C492FE300D3B49B /* Models */,
+				D5B3362E2C4A64E900D3B49B /* ImageLoader.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D5B335F32C4910D300D3B49B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335B72C486BD900D3B49B /* LaunchScreen.storyboard */,
+				D5B3362A2C49D1F700D3B49B /* Screens */,
+				D5B336282C49CF5400D3B49B /* Other Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D5B335F42C4910EE00D3B49B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335B52C486BD900D3B49B /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		D5B335F72C49112B00D3B49B /* Breed List */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335F52C49111000D3B49B /* BreedListViewController.swift */,
+				D5B335F82C4911C600D3B49B /* BreedListViewModel.swift */,
+				D5B336132C494D2400D3B49B /* BreedListViewController.xib */,
+				D5B3361D2C495D9C00D3B49B /* Cell */,
+			);
+			path = "Breed List";
+			sourceTree = "<group>";
+		};
+		D5B335FC2C49121C00D3B49B /* Breed Details */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335FF2C49126E00D3B49B /* BreedDetailViewController.swift */,
+				D5B335FD2C49123200D3B49B /* BreedDetailViewModel.swift */,
+				D5B336242C49AC6900D3B49B /* Cells */,
+			);
+			path = "Breed Details";
+			sourceTree = "<group>";
+		};
+		D5B336032C49283200D3B49B /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335EF2C490FFA00D3B49B /* DependencyContainer.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		D5B336062C492FE300D3B49B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5B336042C492FC100D3B49B /* Breed.swift */,
+				D5B336072C492FF000D3B49B /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5B336152C494E8C00D3B49B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335BA2C486BD900D3B49B /* Info.plist */,
+				D5B336162C495BB200D3B49B /* Localizable.xcstrings */,
+				D5B3361E2C495E7700D3B49B /* breeds.json */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		D5B3361A2C495C7800D3B49B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5B336182C495C7400D3B49B /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D5B3361D2C495D9C00D3B49B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3361B2C495D8900D3B49B /* BreedTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D5B336242C49AC6900D3B49B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D5B336202C49AC4900D3B49B /* DescriptionCell.swift */,
+				D5B336222C49AC6500D3B49B /* PhotoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D5B336282C49CF5400D3B49B /* Other Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5B336262C49CAEA00D3B49B /* LoadingImageView.swift */,
+			);
+			path = "Other Views";
+			sourceTree = "<group>";
+		};
+		D5B336292C49CFBB00D3B49B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335A92C486BD700D3B49B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D5B3362A2C49D1F700D3B49B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335F72C49112B00D3B49B /* Breed List */,
+				D5B335FC2C49121C00D3B49B /* Breed Details */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D5B3362D2C4A649300D3B49B /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3362B2C4A646700D3B49B /* ImageStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		D5B3363E2C4A716C00D3B49B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3363C2C4A716800D3B49B /* MockImageLoader.swift */,
+				D5B3363F2C4A719700D3B49B /* MockBreedRepository.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D5B336432C4A79B300D3B49B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D5B335F12C49107500D3B49B /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +368,9 @@
 			dependencies = (
 			);
 			name = CatBreedsBook;
+			packageProductDependencies = (
+				D5B336312C4A671D00D3B49B /* Swinject */,
+			);
 			productName = CatBreedsBook;
 			productReference = D5B335A62C486BD700D3B49B /* CatBreedsBook.app */;
 			productType = "com.apple.product-type.application";
@@ -164,27 +389,12 @@
 				D5B335C12C486BD900D3B49B /* PBXTargetDependency */,
 			);
 			name = CatBreedsBookTests;
+			packageProductDependencies = (
+				D5B336362C4A6F3F00D3B49B /* Swinject */,
+			);
 			productName = CatBreedsBookTests;
 			productReference = D5B335BF2C486BD900D3B49B /* CatBreedsBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D5B335C82C486BD900D3B49B /* CatBreedsBookUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5B335D92C486BD900D3B49B /* Build configuration list for PBXNativeTarget "CatBreedsBookUITests" */;
-			buildPhases = (
-				D5B335C52C486BD900D3B49B /* Sources */,
-				D5B335C62C486BD900D3B49B /* Frameworks */,
-				D5B335C72C486BD900D3B49B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D5B335CB2C486BD900D3B49B /* PBXTargetDependency */,
-			);
-			name = CatBreedsBookUITests;
-			productName = CatBreedsBookUITests;
-			productReference = D5B335C92C486BD900D3B49B /* CatBreedsBookUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,10 +413,6 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = D5B335A52C486BD700D3B49B;
 					};
-					D5B335C82C486BD900D3B49B = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = D5B335A52C486BD700D3B49B;
-					};
 				};
 			};
 			buildConfigurationList = D5B335A12C486BD700D3B49B /* Build configuration list for PBXProject "CatBreedsBook" */;
@@ -218,13 +424,15 @@
 				Base,
 			);
 			mainGroup = D5B3359D2C486BD700D3B49B;
+			packageReferences = (
+				D5B336302C4A66BA00D3B49B /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = D5B335A72C486BD700D3B49B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D5B335A52C486BD700D3B49B /* CatBreedsBook */,
 				D5B335BE2C486BD900D3B49B /* CatBreedsBookTests */,
-				D5B335C82C486BD900D3B49B /* CatBreedsBookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,19 +443,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B335B62C486BD900D3B49B /* Assets.xcassets in Resources */,
+				D5B3361F2C495E7700D3B49B /* breeds.json in Resources */,
+				D5B336142C494D2400D3B49B /* BreedListViewController.xib in Resources */,
+				D5B336172C495BB200D3B49B /* Localizable.xcstrings in Resources */,
 				D5B335B92C486BD900D3B49B /* Base in Resources */,
-				D5B335B12C486BD700D3B49B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D5B335BD2C486BD900D3B49B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B335C72C486BD900D3B49B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,10 +464,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B335AE2C486BD700D3B49B /* ViewController.swift in Sources */,
+				D5B336052C492FC100D3B49B /* Breed.swift in Sources */,
+				D5B335ED2C490C5D00D3B49B /* NetworkService.swift in Sources */,
+				D5B335F62C49111000D3B49B /* BreedListViewController.swift in Sources */,
+				D5B335F92C4911C600D3B49B /* BreedListViewModel.swift in Sources */,
+				D5B335F02C490FFA00D3B49B /* DependencyContainer.swift in Sources */,
+				D5B336272C49CAEA00D3B49B /* LoadingImageView.swift in Sources */,
+				D5B3361C2C495D8900D3B49B /* BreedTableViewCell.swift in Sources */,
+				D5B335FE2C49123200D3B49B /* BreedDetailViewModel.swift in Sources */,
+				D5B3360D2C4939C100D3B49B /* MOPhoto+CoreDataClass.swift in Sources */,
+				D5B336192C495C7400D3B49B /* String+Extension.swift in Sources */,
+				D5B3360E2C4939C100D3B49B /* MOPhoto+CoreDataProperties.swift in Sources */,
+				D5B336122C493EBF00D3B49B /* ImageRepository.swift in Sources */,
+				D5B336232C49AC6500D3B49B /* PhotoCell.swift in Sources */,
+				D5B3362C2C4A646700D3B49B /* ImageStorage.swift in Sources */,
+				D5B3360F2C4939C100D3B49B /* MOBreed+CoreDataClass.swift in Sources */,
+				D5B336102C4939C100D3B49B /* MOBreed+CoreDataProperties.swift in Sources */,
+				D5B336082C492FF000D3B49B /* Photo.swift in Sources */,
+				D5B3362F2C4A64E900D3B49B /* ImageLoader.swift in Sources */,
+				D5B335DE2C49079100D3B49B /* CoreDataHelper.swift in Sources */,
+				D5B336252C49C0B600D3B49B /* Router.swift in Sources */,
 				D5B335AA2C486BD700D3B49B /* AppDelegate.swift in Sources */,
 				D5B335B42C486BD700D3B49B /* CatBreedsBook.xcdatamodeld in Sources */,
-				D5B335AC2C486BD700D3B49B /* SceneDelegate.swift in Sources */,
+				D5B336002C49126E00D3B49B /* BreedDetailViewController.swift in Sources */,
+				D5B336022C49140F00D3B49B /* BreedRepository.swift in Sources */,
+				D5B336212C49AC4900D3B49B /* DescriptionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +496,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B335C42C486BD900D3B49B /* CatBreedsBookTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B335C52C486BD900D3B49B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5B335CE2C486BD900D3B49B /* CatBreedsBookUITests.swift in Sources */,
-				D5B335D02C486BD900D3B49B /* CatBreedsBookUITestsLaunchTests.swift in Sources */,
+				D5B336402C4A719700D3B49B /* MockBreedRepository.swift in Sources */,
+				D5B3363D2C4A716800D3B49B /* MockImageLoader.swift in Sources */,
+				D5B336422C4A72C200D3B49B /* BreedDetailViewModelTests.swift in Sources */,
+				D5B3363B2C4A711000D3B49B /* BreedListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,22 +511,9 @@
 			target = D5B335A52C486BD700D3B49B /* CatBreedsBook */;
 			targetProxy = D5B335C02C486BD900D3B49B /* PBXContainerItemProxy */;
 		};
-		D5B335CB2C486BD900D3B49B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D5B335A52C486BD700D3B49B /* CatBreedsBook */;
-			targetProxy = D5B335CA2C486BD900D3B49B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D5B335AF2C486BD700D3B49B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5B335B02C486BD700D3B49B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5B335B72C486BD900D3B49B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,10 +655,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatBreedsBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,10 +683,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatBreedsBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,42 +740,6 @@
 			};
 			name = Release;
 		};
-		D5B335DA2C486BD900D3B49B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 532T5JJ793;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Vitaliy.CatBreedsBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CatBreedsBook;
-			};
-			name = Debug;
-		};
-		D5B335DB2C486BD900D3B49B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 532T5JJ793;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Vitaliy.CatBreedsBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CatBreedsBook;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -601,16 +770,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B335D92C486BD900D3B49B /* Build configuration list for PBXNativeTarget "CatBreedsBookUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5B335DA2C486BD900D3B49B /* Debug */,
-				D5B335DB2C486BD900D3B49B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5B336302C4A66BA00D3B49B /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5B336312C4A671D00D3B49B /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5B336302C4A66BA00D3B49B /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		D5B336362C4A6F3F00D3B49B /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5B336302C4A66BA00D3B49B /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D5B335B22C486BD700D3B49B /* CatBreedsBook.xcdatamodeld */ = {
