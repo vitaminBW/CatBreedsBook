@@ -45,6 +45,7 @@ class DiskImageStorage: ImageStorage {
     
     private let fileManager = FileManager.default
     private let cacheDirectory: URL
+    private let lock = NSLock()
     
     init() {
         let urls = fileManager.urls(for: .cachesDirectory, in: .userDomainMask)
@@ -63,12 +64,33 @@ class DiskImageStorage: ImageStorage {
     func saveImage(_ image: UIImage, forKey key: String) {
         let fileURL = cacheDirectory.appendingPathComponent(key)
         guard let data = image.jpegData(compressionQuality: 0.9) else { return }
-        try? data.write(to: fileURL)
+        
+        DispatchQueue.global(qos: .background).async { [weak self] in
+            guard let self = self else { return }
+            self.lock.lock()
+            defer { self.lock.unlock() }
+            do {
+                try data.write(to: fileURL)
+            } catch {
+                print("Failed to save image to disk: \(error)")
+            }
+        }
     }
     
     func removeImage(forKey key: String) {
         let fileURL = cacheDirectory.appendingPathComponent(key)
-        try? fileManager.removeItem(at: fileURL)
+        
+        DispatchQueue.global(qos: .background).async { [weak self] in
+            guard let self = self else { return }
+            self.lock.lock()
+            defer { self.lock.unlock() }
+            do {
+                try self.fileManager.removeItem(at: fileURL)
+            } catch {
+                print("Failed to remove image: \(error)")
+            }
+        }
+        
     }
     
     func clearStorage() {
